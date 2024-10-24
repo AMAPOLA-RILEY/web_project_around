@@ -24,6 +24,9 @@
   justify-content: center;
   align-content: center;
   margin: 18% auto;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .popup__close {
@@ -110,6 +113,9 @@
   bottom: 0;
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .popup__add {
@@ -185,6 +191,8 @@
 @media (max-width: 320px) {
   .popup__container {
     width: 90%;
+    height: auto;
+    margin: 10%;
   }
   .popup__card {
     width: 100%;
