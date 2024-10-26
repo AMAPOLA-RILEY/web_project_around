@@ -29,6 +29,13 @@
   overflow: hidden;
 }
 
+.popup__input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+}
+
 .popup__close {
   cursor: pointer;
   align-self: flex-end;
@@ -113,9 +120,6 @@
   bottom: 0;
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .popup__add {
@@ -191,8 +195,6 @@
 @media (max-width: 320px) {
   .popup__container {
     width: 90%;
-    height: auto;
-    margin: 10%;
   }
   .popup__card {
     width: 100%;

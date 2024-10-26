@@ -1,7 +1,5 @@
 .profile__content {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
 .profile__name {
   font-weight: 500;
