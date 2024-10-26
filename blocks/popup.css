@@ -26,7 +26,7 @@
   margin: 18% auto;
   text-overflow: ellipsis;
   white-space: nowrap;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .popup__input {
